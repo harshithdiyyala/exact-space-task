@@ -1,0 +1,84 @@
+.initial {
+    font-weight:800;
+    padding:10px;
+    border-radius: 100%;
+    color :aliceblue;
+    height:33px;
+    width:33px;
+    text-align: center;
+    margin-right:10px;
+}
+
+.grey {
+    background-color: #707070;
+}
+.blue {
+    background-color: #4285F4;
+}
+.purple {
+    background-color: #9C27B0;
+}
+.green {
+    background-color: #4CAF50;
+}
+.orange {
+    background-color: #FF9800;
+}
+.message-container {
+    display:flex;
+    justify-content: flex-start;
+    width:100%;
+}
+.details-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.username-time-container {
+    display:flex;
+    align-items: center;
+}
+.username {
+    padding-right:10px;
+    margin-bottom:3px;
+    align-self: flex-start;
+}
+.time {
+    font-size:13px;
+    align-self: flex-end;
+    font-weight:700;
+}
+.message-like-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom:2px;
+}   
+.message-item {
+    color: darkolivegreen;
+    background-color: beige;
+    border-radius:0px 10px 10px 10px ;
+    font-size:16px;
+    font-weight:800;
+}
+.message-item >p  {
+    padding-left:8px;
+    padding-right: 8px;
+}
+.like-container {
+    display:flex;
+    margin-top:4px;
+}
+.like-btn {
+    background-color: transparent;
+    border-width:0px;
+    margin-right:5px;
+
+}
+.like-icon {
+    height:24px;
+    width:24px;
+}
+.like-count {
+    font-weight:700;
+}
